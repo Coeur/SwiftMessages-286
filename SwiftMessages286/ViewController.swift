@@ -10,6 +10,16 @@ import SwiftMessages
 
 class ViewController: UIViewController {
     
+    var observation: NSKeyValueObservation!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        observation = view.layer.observe(\.bounds, options: NSKeyValueObservingOptions([.initial, .new]), changeHandler: { (object, change) in
+            print(change)
+        })
+    }
+    
     @IBAction func notifications(_ sender: UIButton) {
         var config = SwiftMessages.Config()
         config.duration = .seconds(seconds: 3)
