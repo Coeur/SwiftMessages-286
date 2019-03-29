@@ -1,0 +1,23 @@
+PODS:
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+
+DEPENDENCIES:
+  - SwiftMessages (from `https://github.com/SwiftKickMobile/SwiftMessages`)
+
+EXTERNAL SOURCES:
+  SwiftMessages:
+    :git: https://github.com/SwiftKickMobile/SwiftMessages
+
+CHECKOUT OPTIONS:
+  SwiftMessages:
+    :commit: 30fbed8a4e3283c5814169c4ebc78a28a6656da6
+    :git: https://github.com/SwiftKickMobile/SwiftMessages
+
+SPEC CHECKSUMS:
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+
+PODFILE CHECKSUM: c1438474c5a87bfd5183724c9716a431376dbdd6
+
+COCOAPODS: 1.6.1
